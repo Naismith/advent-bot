@@ -24,9 +24,9 @@ Then it will reach out to the Advent of Code API for the given year and leaderbo
 
 After receiving the data, it will sort by `local_score` which is the Private Leaderboard Score, and return the top 10.
 
-The top 10 members are then mapped over to create (https://app.slack.com/block-kit-builder)[Slack Blocks] to send a formatted message in Slack.
+The top 10 members are then mapped over to create [Slack Blocks](https://app.slack.com/block-kit-builder) to send a formatted message in Slack.
 
-Lastly, using (https://slack.dev/bolt-js/concepts)[@Slack/Bolt] this will send a message in Slack (TorontoJS) to the #advent channel with the formatted slack message. Slack Bot credentials are stored on Netlify.
+Lastly, using [@Slack/Bolt](https://slack.dev/bolt-js/concepts) this will send a message in Slack (TorontoJS) to the #advent channel with the formatted slack message. Slack Bot credentials are stored on Netlify.
 
 ## Example Screenshot
 
