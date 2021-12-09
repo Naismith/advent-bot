@@ -4,7 +4,7 @@ on:
   schedule:
     #  17:00 UTC is Noon
     # “At 12:02 PM in December.”
-    - cron: "2 17 * 12 *"
+#     - cron: "2 17 * 12 *"
 jobs:
   build:
     name: Build Hook
