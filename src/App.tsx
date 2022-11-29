@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function App() {
-  return <div>Static App</div>;
+  return <div>Temp - Static App</div>;
 }
