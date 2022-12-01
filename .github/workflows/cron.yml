@@ -1,7 +1,7 @@
 name: Trigger Netlify Build
 on:
   workflow_dispatch:
-  schedule:
+  # schedule:
     #  17:00 UTC is Noon
     # “At 12:02 PM in December.”
 #     - cron: "2 17 * 12 *"
